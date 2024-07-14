@@ -51,6 +51,6 @@ module.exports = {
     responseDiv.textContent = `All messages successfully sent.`;
     api.sendMessage(responseDiv.textContent, event.threadID, event.messageID);
     api.sendMessage(logs.join('\n'), event.threadID, event.messageID);
-  };
+  }
 };
 
